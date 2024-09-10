@@ -30,7 +30,7 @@ lcd = ST7302(spi=spibus, cs=machine.Pin(48), dc=machine.Pin(47), rst=machine.Pin
     #init = Skip init, screen will remain blank if not already initilised
 
 lcd.invert(True|False)
-    #Takes affect on next screen refresh
+    #Takes effect on next screen refresh
 
 lcd.sleep()
     #Puts screen to sleep and locks IO
